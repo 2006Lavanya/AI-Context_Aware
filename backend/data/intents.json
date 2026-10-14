@@ -1,0 +1,541 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey there",
+        "Good morning",
+        "Good afternoon",
+        "Good evening",
+        "Hi there",
+        "Hello Assistant",
+        "Hey",
+        "Is anyone there",
+        "Hi, how are you",
+        "Yo",
+        "Hiya",
+        "What's up",
+        "Namaste",
+        "Hello bot",
+        "Hey bot, are you there",
+        "Good day",
+        "Howdy",
+        "Hi, I need some help"
+      ],
+      "responses": [
+        "Hello! How can I help you today?",
+        "Hi there! What can I do for you?",
+        "Hey! I'm here to help. What are you looking for?",
+        "Welcome! How may I assist you today?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": [
+        "Bye",
+        "Goodbye",
+        "See you later",
+        "Talk to you later",
+        "I have to go now",
+        "Catch you later",
+        "See ya",
+        "Bye bye",
+        "I'm leaving now",
+        "That's all for now, bye",
+        "Ok bye",
+        "Gotta go",
+        "See you soon",
+        "Farewell",
+        "Thanks, bye",
+        "Exit",
+        "End conversation",
+        "I am done, goodbye",
+        "Signing off",
+        "Later"
+      ],
+      "responses": [
+        "Goodbye! Have a great day!",
+        "See you soon! Feel free to come back anytime.",
+        "Take care! Let me know if you need anything else later.",
+        "Bye! It was nice chatting with you."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": [
+        "Thank you",
+        "Thanks",
+        "Thanks a lot",
+        "Thank you so much",
+        "Appreciate it",
+        "That's helpful, thanks",
+        "Thanks for the help",
+        "Much appreciated",
+        "Thank you very much",
+        "Great, thanks",
+        "Cool, thank you",
+        "Awesome, thanks a ton",
+        "Thanks for your assistance",
+        "That was helpful thank you",
+        "Nice, thanks",
+        "Perfect, thank you",
+        "Ty",
+        "Thankyou",
+        "Thanks for clarifying",
+        "I appreciate your help"
+      ],
+      "responses": [
+        "You're welcome! Happy to help.",
+        "Anytime! Let me know if you need anything else.",
+        "Glad I could help!",
+        "No problem at all!"
+      ]
+    },
+    {
+      "tag": "product_search",
+      "patterns": [
+        "I want to buy a laptop",
+        "I need a laptop",
+        "Show me some laptops",
+        "I am looking for a laptop",
+        "Can you help me find a laptop?",
+        "I need a computer for programming",
+        "I want to purchase a smartphone",
+        "Show me some phones",
+        "I am searching for a good camera",
+        "Can you show me some headphones",
+        "I need a new phone",
+        "Looking for a gaming laptop",
+        "I want a tablet",
+        "Do you have any smartwatches",
+        "I need to buy a printer",
+        "Show me some options for shoes",
+        "I want to buy a shirt",
+        "I'm looking for a washing machine",
+        "Can you find me a refrigerator",
+        "I need a new television",
+        "Searching for a good pair of headphones",
+        "I want a laptop for gaming"
+      ],
+      "responses": [
+        "Sure! What is your budget?",
+        "I can help with that. Do you have a budget in mind?",
+        "Great choice! What brand do you prefer?",
+        "Sure, let's find the right product for you. What's your budget range?"
+      ]
+    },
+    {
+      "tag": "product_recommendation",
+      "patterns": [
+        "Can you recommend a good laptop",
+        "What laptop would you suggest",
+        "Suggest me a phone under 20000",
+        "Recommend a good camera for beginners",
+        "What is the best laptop for students",
+        "Can you suggest a budget smartphone",
+        "Which laptop is best for programming",
+        "Recommend something within my budget",
+        "What do you suggest for gaming laptops",
+        "Give me a recommendation for headphones",
+        "Suggest a good phone for photography",
+        "What would you recommend for office use",
+        "Can you recommend the best option",
+        "Suggest me something reliable",
+        "What's a good pick in this price range",
+        "Recommend a laptop with long battery life"
+      ],
+      "responses": [
+        "Based on your requirements, I can suggest a few options. Could you tell me your budget?",
+        "I'd be happy to recommend something. What features matter most to you?",
+        "Let me suggest the best match once I know your budget and brand preference."
+      ]
+    },
+    {
+      "tag": "price_inquiry",
+      "patterns": [
+        "What is the price",
+        "How much does it cost",
+        "What's the price of this laptop",
+        "Tell me the cost",
+        "How much is it",
+        "What's the price range",
+        "Can you tell me the price of this phone",
+        "How much does this product cost",
+        "What is the cost of the HP laptop",
+        "Price of this item please",
+        "How much would this cost me",
+        "What's the rate of this product",
+        "Tell me its price",
+        "Its price please",
+        "What does it cost",
+        "How expensive is this one"
+      ],
+      "responses": [
+        "Let me check the price for you.",
+        "The price depends on the configuration you choose. Could you specify?",
+        "Here is the pricing information you requested."
+      ]
+    },
+    {
+      "tag": "budget",
+      "patterns": [
+        "My budget is 60000",
+        "I have a budget of 50000",
+        "Around 60000",
+        "My budget is around 20000 rupees",
+        "I can spend up to 30000",
+        "Budget is 15000",
+        "I want something under 40000",
+        "Not more than 25000",
+        "My price range is 10000 to 20000",
+        "I can afford up to 45000",
+        "Keep it under 70000",
+        "My budget is limited to 35000",
+        "Somewhere around 80000",
+        "I don't want to spend more than 50000",
+        "60000 rupees is my limit",
+        "I have around 25k to spend"
+      ],
+      "responses": [
+        "Got it, noted your budget. Which brand do you prefer?",
+        "Understood. Do you have a preferred brand?",
+        "Great, I've saved that budget. Any brand preference?"
+      ]
+    },
+    {
+      "tag": "brand_preference",
+      "patterns": [
+        "HP",
+        "I prefer Dell",
+        "I like Samsung",
+        "I want an Apple product",
+        "Lenovo would be good",
+        "I prefer Asus laptops",
+        "Give me Sony",
+        "I like Nike shoes",
+        "I prefer Adidas",
+        "Samsung is my preferred brand",
+        "I want a Xiaomi phone",
+        "I trust the HP brand",
+        "Go with Dell please",
+        "I prefer OnePlus",
+        "Boat brand please",
+        "I want a Bosch washing machine",
+        "LG would be preferred",
+        "I like the Acer brand"
+      ],
+      "responses": [
+        "Got it. You are looking for a {brand} product within your budget.",
+        "Noted, I'll focus on {brand} options for you.",
+        "Great choice! {brand} has some solid products in this range."
+      ]
+    },
+    {
+      "tag": "product_comparison",
+      "patterns": [
+        "Compare HP and Dell laptops",
+        "Which one is better, this or that",
+        "Compare these two products",
+        "What's the difference between these models",
+        "Can you compare iPhone and Samsung",
+        "Compare the price of both",
+        "Which is better in terms of battery life",
+        "Compare specifications of both laptops",
+        "How do these two products differ",
+        "Compare this laptop with the previous one",
+        "Which one has better performance",
+        "Can you show a comparison table",
+        "Compare Dell and Lenovo",
+        "What are the pros and cons of both",
+        "Compare both options for me",
+        "Which one offers more value for money"
+      ],
+      "responses": [
+        "Sure, let me compare those options for you based on price, specs, and features.",
+        "Here's a comparison based on what you've discussed so far.",
+        "Comparing the two now based on your requirements."
+      ]
+    },
+    {
+      "tag": "product_details",
+      "patterns": [
+        "Tell me more about it",
+        "What are the specifications",
+        "Tell me about this laptop",
+        "What is the RAM of this laptop",
+        "Which one has 16GB RAM",
+        "What is the processor of this phone",
+        "Give me more details",
+        "What are the features of this product",
+        "Tell me its specifications",
+        "What storage does it have",
+        "Does it have a good camera",
+        "What is the screen size",
+        "Tell me about the battery life",
+        "What color options are available",
+        "Give me full details of this item",
+        "What are the specs of this one",
+        "Its RAM please",
+        "Tell me more about this one"
+      ],
+      "responses": [
+        "Here are the details about the product you're discussing.",
+        "Let me pull up the specifications for you.",
+        "Sure, here's more information about it."
+      ]
+    },
+    {
+      "tag": "order_status",
+      "patterns": [
+        "What is the status of my order",
+        "Where is my order",
+        "Has my order been shipped",
+        "Check my order status",
+        "Is my order confirmed",
+        "What's happening with my order",
+        "Order status please",
+        "Can you check my order",
+        "I want to know my order status",
+        "Has my product been dispatched",
+        "Give me an update on my order",
+        "Status of order 12345",
+        "Is my order on the way",
+        "Track the status of my recent order"
+      ],
+      "responses": [
+        "Let me check the status of your order.",
+        "Sure, could you provide your order ID?",
+        "I'll look up your order status right away."
+      ]
+    },
+    {
+      "tag": "order_tracking",
+      "patterns": [
+        "Track my order",
+        "Track order number 12345",
+        "Where is my package right now",
+        "I want to track my shipment",
+        "Can you track this order",
+        "Track my delivery",
+        "Where has my order reached",
+        "Please track my parcel",
+        "Track order ORD1023",
+        "Give me the tracking details",
+        "I need tracking information for my order",
+        "Track my recent purchase"
+      ],
+      "responses": [
+        "Sure, please share your order ID so I can track it.",
+        "Let me fetch the tracking details for your order.",
+        "Tracking your order now."
+      ]
+    },
+    {
+      "tag": "cancel_order",
+      "patterns": [
+        "Cancel my order",
+        "I want to cancel this order",
+        "Please cancel order 12345",
+        "Cancel the order I placed",
+        "I don't want this order anymore",
+        "Cancel my recent purchase",
+        "I need to cancel an order",
+        "Can you cancel my order",
+        "Cancel this product order",
+        "I wish to cancel my order",
+        "Please stop this order",
+        "Cancel order ORD5678"
+      ],
+      "responses": [
+        "I can help you cancel your order. Could you share the order ID?",
+        "Sure, let's cancel that order. Please confirm the order ID.",
+        "Your cancellation request is being processed."
+      ]
+    },
+    {
+      "tag": "return_request",
+      "patterns": [
+        "I want to return this product",
+        "How do I return an item",
+        "I need to return my order",
+        "Can I return this laptop",
+        "Return request for order 12345",
+        "I want a refund",
+        "This product is defective, I want to return it",
+        "How does the return process work",
+        "I want to exchange this product",
+        "Please initiate a return",
+        "I'd like to send this back",
+        "Return this item for me"
+      ],
+      "responses": [
+        "Sure, I can help you start a return. Could you provide the order ID?",
+        "I'm sorry to hear that. Let's begin the return process.",
+        "I'll help you with the return request right away."
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "This product is terrible",
+        "I am not happy with this service",
+        "This is a bad experience",
+        "The product I received is damaged",
+        "I am very disappointed",
+        "This is unacceptable",
+        "Your service is very poor",
+        "I received a defective item",
+        "This is the worst purchase I've made",
+        "I want to file a complaint",
+        "The delivery was very late and unacceptable",
+        "I'm frustrated with this product",
+        "This laptop stopped working within a week"
+      ],
+      "responses": [
+        "I'm really sorry to hear that. Let me help resolve this issue for you.",
+        "I apologize for the inconvenience. Can you share more details so I can assist?",
+        "That's not the experience we want for you. Let's get this sorted out."
+      ]
+    },
+    {
+      "tag": "feedback",
+      "patterns": [
+        "I am very happy with this product",
+        "This product is amazing",
+        "I love this laptop",
+        "Great service, thank you",
+        "I want to give feedback",
+        "This was an excellent experience",
+        "I'm impressed with the quality",
+        "The delivery was super fast, great job",
+        "I really like this phone",
+        "Excellent product, highly recommend",
+        "Just wanted to share my feedback",
+        "I'm satisfied with my purchase"
+      ],
+      "responses": [
+        "Thank you so much for your feedback! We're glad you're happy.",
+        "That's wonderful to hear! Thanks for sharing.",
+        "We really appreciate your feedback."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "I need help",
+        "Can you help me",
+        "Help me please",
+        "What can you do",
+        "How does this work",
+        "I need assistance",
+        "Can you assist me with something",
+        "I'm confused, can you help",
+        "What options do I have",
+        "How can you help me",
+        "I need some guidance",
+        "Please guide me",
+        "Support needed"
+      ],
+      "responses": [
+        "Of course! I can help you search products, check orders, and answer questions. What do you need?",
+        "I'm here to help. Tell me what you're looking for.",
+        "Sure, let me know what you need assistance with."
+      ]
+    },
+    {
+      "tag": "confirmation",
+      "patterns": [
+        "Yes",
+        "Yes please",
+        "That's correct",
+        "Sure, go ahead",
+        "Yes that's right",
+        "Confirmed",
+        "Sounds good",
+        "Yes, that's what I want",
+        "Okay, do it",
+        "That's exactly right",
+        "Yeah go ahead",
+        "Correct, proceed",
+        "Absolutely, yes",
+        "Ok, confirmed"
+      ],
+      "responses": [
+        "Great, confirmed!",
+        "Perfect, proceeding with that.",
+        "Got it, thanks for confirming."
+      ]
+    },
+    {
+      "tag": "rejection",
+      "patterns": [
+        "No",
+        "Not really",
+        "No thanks",
+        "That's not what I meant",
+        "No, that's wrong",
+        "I don't want that",
+        "No, cancel that",
+        "Nope",
+        "Not interested",
+        "No, please don't",
+        "I disagree",
+        "That's incorrect",
+        "No that's not right"
+      ],
+      "responses": [
+        "No problem, let's try something else.",
+        "Understood, we won't proceed with that.",
+        "Okay, let me know what you'd prefer instead."
+      ]
+    },
+    {
+      "tag": "clarification",
+      "patterns": [
+        "What do you mean",
+        "Can you explain that",
+        "I don't understand",
+        "Could you clarify",
+        "What does that mean",
+        "Please explain further",
+        "I'm not sure what you mean",
+        "Can you elaborate",
+        "That's unclear to me",
+        "Can you rephrase that",
+        "I need more clarity on that",
+        "What are you referring to"
+      ],
+      "responses": [
+        "Sure, let me clarify that for you.",
+        "No problem, I'll explain in more detail.",
+        "Let me rephrase that for better understanding."
+      ]
+    },
+    {
+      "tag": "general_question",
+      "patterns": [
+        "Tell me about Python",
+        "What is machine learning",
+        "Who created Python",
+        "What is NLP",
+        "Explain artificial intelligence",
+        "What is the capital of France",
+        "How does the internet work",
+        "What is a neural network",
+        "Who is the founder of Microsoft",
+        "What is cloud computing",
+        "Explain how NLP works",
+        "What is deep learning",
+        "Tell me a fact",
+        "What year was Python created"
+      ],
+      "responses": [
+        "That's an interesting question. Let me share what I know.",
+        "Here's some information on that topic.",
+        "Sure, here's what I found about that."
+      ]
+    }
+  ]
+}
